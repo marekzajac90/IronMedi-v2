@@ -66,6 +66,11 @@ section {
   border-radius: 70px;
 }
 
+.box {
+  position: relative;
+  top: 70vh;
+}
+
 .nav {
   position: fixed;
   width: 100vw;
@@ -445,11 +450,6 @@ section {
 .usage__container--button-btn-active {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-}
-
-.box {
-  position: relative;
-  top: 70vh;
 }
 
 .price {
