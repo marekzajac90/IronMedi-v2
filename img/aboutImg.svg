@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="292.444" height="229.502" viewBox="0 0 292.444 229.502">
+  <defs>
+    <filter id="Pfad_29" x="252.474" y="43.826" width="39.97" height="37.83" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_29-2" x="123.419" y="0" width="39.97" height="37.83" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_29-3" x="0" y="43.798" width="39.97" height="37.83" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_29-4" x="0" y="130.61" width="39.97" height="37.83" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-4"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_29-5" x="80.393" y="191.672" width="39.97" height="37.83" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-5"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_29-6" x="172.318" y="191.672" width="39.97" height="37.83" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-6"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_29-7" x="252.474" y="130.578" width="39.97" height="37.83" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-7"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_21" x="54.512" y="95.787" width="44.514" height="44.379" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-8"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_21-2" x="98.867" y="132.04" width="44.514" height="44.378" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-9"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_21-3" x="98.867" y="54.417" width="44.514" height="44.379" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-10"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_21-4" x="143.223" y="94.508" width="44.514" height="44.379" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-11"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_21-5" x="185.873" y="53.138" width="44.514" height="44.379" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-12"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_21-6" x="187.579" y="132.04" width="44.514" height="44.378" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-13"/>
+      <feFlood flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="wzor_strukturalny" data-name="wzor strukturalny" transform="translate(28.531 76.5)">
+    <g id="H2O" transform="translate(-28.531 -75)">
+      <g id="Gruppe_36" data-name="Gruppe 36" transform="translate(252.474 43.826)">
+        <g id="Gruppe_50" data-name="Gruppe 50" transform="translate(0 0)">
+          <g transform="matrix(1, 0, 0, 1, -252.47, -45.33)" filter="url(#Pfad_29)">
+            <path id="Pfad_29-8" data-name="Pfad 29" d="M135.975,660.966,119.24,671.551V685.81l16.735,9.986,16.735-9.986V671.551Z" transform="translate(133.23 -615.64)" fill="#1198d7"/>
+          </g>
+          <text id="H2O-2" data-name="H2O" transform="translate(15.502 19.389)" fill="#fff" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-7.847" y="0">H2O</tspan></text>
+        </g>
+      </g>
+      <g id="Gruppe_37" data-name="Gruppe 37" transform="translate(123.419)">
+        <g transform="matrix(1, 0, 0, 1, -123.42, -1.5)" filter="url(#Pfad_29-2)">
+          <path id="Pfad_29-9" data-name="Pfad 29" d="M135.975,660.966,119.24,671.551V685.81l16.735,9.986,16.735-9.986V671.551Z" transform="translate(4.18 -659.47)" fill="#1198d7"/>
+        </g>
+        <text id="H2O-3" data-name="H2O" transform="translate(15.502 17.683)" fill="#fff" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-7.847" y="0">H2O</tspan></text>
+      </g>
+      <g id="Gruppe_38" data-name="Gruppe 38" transform="translate(0 43.798)">
+        <g transform="matrix(1, 0, 0, 1, 0, -45.3)" filter="url(#Pfad_29-3)">
+          <path id="Pfad_29-10" data-name="Pfad 29" d="M135.975,660.966,119.24,671.551V685.81l16.735,9.986,16.735-9.986V671.551Z" transform="translate(-119.24 -615.67)" fill="#1198d7"/>
+        </g>
+        <text id="H2O-4" data-name="H2O" transform="translate(15.502 17.683)" fill="#fff" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-7.847" y="0">H2O</tspan></text>
+      </g>
+      <g id="Gruppe_39" data-name="Gruppe 39" transform="translate(0 130.61)">
+        <g id="Gruppe_52" data-name="Gruppe 52" transform="translate(0 0)">
+          <g transform="matrix(1, 0, 0, 1, 0, -132.11)" filter="url(#Pfad_29-4)">
+            <path id="Pfad_29-11" data-name="Pfad 29" d="M135.975,660.966,119.24,671.551V685.81l16.735,9.986,16.735-9.986V671.551Z" transform="translate(-119.24 -528.86)" fill="#1198d7"/>
+          </g>
+          <text id="H2O-5" data-name="H2O" transform="translate(15.502 19.389)" fill="#fff" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-7.847" y="0">H2O</tspan></text>
+        </g>
+      </g>
+      <g id="Gruppe_40" data-name="Gruppe 40" transform="translate(80.393 191.672)">
+        <g transform="matrix(1, 0, 0, 1, -80.39, -193.17)" filter="url(#Pfad_29-5)">
+          <path id="Pfad_29-12" data-name="Pfad 29" d="M135.975,660.966,119.24,671.551V685.81l16.735,9.986,16.735-9.986V671.551Z" transform="translate(-38.85 -467.79)" fill="#1198d7"/>
+        </g>
+        <text id="H2O-6" data-name="H2O" transform="translate(15.502 17.683)" fill="#fff" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-7.847" y="0">H2O</tspan></text>
+      </g>
+      <g id="Gruppe_41" data-name="Gruppe 41" transform="translate(172.318 191.672)">
+        <g transform="matrix(1, 0, 0, 1, -172.32, -193.17)" filter="url(#Pfad_29-6)">
+          <path id="Pfad_29-13" data-name="Pfad 29" d="M135.975,660.966,119.24,671.551V685.81l16.735,9.986,16.735-9.986V671.551Z" transform="translate(53.08 -467.79)" fill="#1198d7"/>
+        </g>
+        <text id="H2O-7" data-name="H2O" transform="translate(15.502 17.683)" fill="#fff" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-7.847" y="0">H2O</tspan></text>
+      </g>
+      <g id="Gruppe_42" data-name="Gruppe 42" transform="translate(252.474 130.578)">
+        <g id="Gruppe_51" data-name="Gruppe 51" transform="translate(0)">
+          <g transform="matrix(1, 0, 0, 1, -252.47, -132.08)" filter="url(#Pfad_29-7)">
+            <path id="Pfad_29-14" data-name="Pfad 29" d="M135.975,660.966,119.24,671.551V685.81l16.735,9.986,16.735-9.986V671.551Z" transform="translate(133.23 -528.89)" fill="#1198d7"/>
+          </g>
+          <text id="H2O-8" data-name="H2O" transform="translate(15.502 19.389)" fill="#fff" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-7.847" y="0">H2O</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="wyor_strukturalny" data-name="wyor strukturalny" transform="translate(25.981 -21.862)">
+      <g id="Gruppe_43" data-name="Gruppe 43" transform="translate(0 42.65)">
+        <g transform="matrix(1, 0, 0, 1, -54.51, -97.29)" filter="url(#Pfad_21)">
+          <path id="Pfad_21-7" data-name="Pfad 21" d="M138.247,660.966,119.24,673.541v16.94l19.007,11.864,19.007-11.864v-16.94Z" transform="translate(-64.73 -563.68)" fill="#fff"/>
+        </g>
+        <text id="Mg" transform="translate(17.804 24.358)" fill="#1198d7" font-size="13" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-10.757" y="0">Mg</tspan></text>
+      </g>
+      <g id="Gruppe_44" data-name="Gruppe 44" transform="translate(44.356 78.902)">
+        <g transform="matrix(1, 0, 0, 1, -98.87, -133.54)" filter="url(#Pfad_21-2)">
+          <path id="Pfad_21-8" data-name="Pfad 21" d="M138.247,660.966,119.24,673.541v16.94l19.007,11.864,19.007-11.864v-16.94Z" transform="translate(-20.37 -527.43)" fill="#fff"/>
+        </g>
+        <text id="O" transform="translate(17.775 24.358)" fill="#1198d7" font-size="13" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-5.486" y="0">O</tspan></text>
+      </g>
+      <g id="Gruppe_45" data-name="Gruppe 45" transform="translate(44.356 1.279)">
+        <g id="Gruppe_54" data-name="Gruppe 54" transform="translate(0)">
+          <g transform="matrix(1, 0, 0, 1, -98.87, -55.92)" filter="url(#Pfad_21-3)">
+            <path id="Pfad_21-9" data-name="Pfad 21" d="M138.247,660.966,119.24,673.541v16.94l19.007,11.864,19.007-11.864v-16.94Z" transform="translate(-20.37 -605.05)" fill="#fff"/>
+          </g>
+          <text id="O-2" data-name="O" transform="translate(17.775 24.358)" fill="#1198d7" font-size="13" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-5.486" y="0">O</tspan></text>
+        </g>
+      </g>
+      <g id="Gruppe_46" data-name="Gruppe 46" transform="translate(88.711 41.37)">
+        <g transform="matrix(1, 0, 0, 1, -143.22, -96.01)" filter="url(#Pfad_21-4)">
+          <path id="Pfad_21-10" data-name="Pfad 21" d="M138.247,660.966,119.24,673.541v16.94l19.007,11.864,19.007-11.864v-16.94Z" transform="translate(23.98 -564.96)" fill="#fff"/>
+        </g>
+        <text id="S" transform="translate(18.481 24.358)" fill="#1198d7" font-size="13" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-4.147" y="0">S</tspan></text>
+      </g>
+      <g id="Gruppe_47" data-name="Gruppe 47" transform="translate(131.361 0)">
+        <g transform="matrix(1, 0, 0, 1, -185.87, -54.64)" filter="url(#Pfad_21-5)">
+          <path id="Pfad_21-11" data-name="Pfad 21" d="M138.247,660.966,119.24,673.541v16.94l19.007,11.864,19.007-11.864v-16.94Z" transform="translate(66.63 -606.33)" fill="#fff"/>
+        </g>
+        <text id="O-3" data-name="O" transform="translate(17.775 24.358)" fill="#1198d7" font-size="13" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-5.486" y="0">O</tspan></text>
+      </g>
+      <g id="Gruppe_48" data-name="Gruppe 48" transform="translate(133.067 78.902)">
+        <g id="Gruppe_53" data-name="Gruppe 53" transform="translate(0 0)">
+          <g transform="matrix(1, 0, 0, 1, -187.58, -133.54)" filter="url(#Pfad_21-6)">
+            <path id="Pfad_21-12" data-name="Pfad 21" d="M138.247,660.966,119.24,673.541v16.94l19.007,11.864,19.007-11.864v-16.94Z" transform="translate(68.34 -527.43)" fill="#fff"/>
+          </g>
+          <text id="O-4" data-name="O" transform="translate(17.775 24.358)" fill="#1198d7" font-size="13" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-5.486" y="0">O</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
