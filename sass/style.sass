@@ -109,12 +109,11 @@ section
                 height: 2px
                 background-color: #fff
     &__aside
-        display: none
-        // overflow: hidden
+        position: absolute
         z-index: 998
-        width: 100%
+        width: 0
         height: 100vh
-        background-color: #000
+        opacity: 0
         &--active
             position: relative
             position: fixed
@@ -122,7 +121,9 @@ section
             top: 20vh
             height: 80vh
             width: 100%
-            background: linear-gradient(180deg, rgba(32,124,202,1) 33%, rgb(0,0,0) 100%)
+            background: linear-gradient(180deg, #52affe 33%, rgb(0,0,0) 100%)
+            opacity: 1
+            transition: .3s
             &::before
                 position: absolute
                 top: -80vh
@@ -131,8 +132,8 @@ section
                 width: 100%
                 height: 80vh
                 z-index: 999
-                background-color: rgba(32,124,202,1)
-                clip-path: ellipse(50% 10% at 50% 100%)
+                background-color: #52affe
+                clip-path: ellipse(55% 10% at 50% 100%)
             &::after
                 position: absolute
                 content: ''
