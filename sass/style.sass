@@ -110,15 +110,39 @@ section
                 background-color: #fff
     &__aside
         display: none
-        overflow: hidden
+        // overflow: hidden
         z-index: 998
-        background-color: rgba(12,170,255,1)
+        width: 100%
+        height: 100vh
+        background-color: #000
         &--active
             position: relative
             position: fixed
             display: block
-            height: 100vh
+            top: 20vh
+            height: 80vh
             width: 100%
+            background: linear-gradient(180deg, rgba(32,124,202,1) 33%, rgb(0,0,0) 100%)
+            &::before
+                position: absolute
+                top: -80vh
+                content: ''
+                display: block
+                width: 100%
+                height: 80vh
+                z-index: 999
+                background-color: rgba(32,124,202,1)
+                clip-path: ellipse(50% 10% at 50% 100%)
+            &::after
+                position: absolute
+                content: ''
+                top: -100vh
+                display: block
+                width: 100%
+                height: 100vh
+                background-color: #000000
+                z-index: 3
+
         &--menu
             position: relative
             display: flex
@@ -127,16 +151,16 @@ section
             align-items: center
             width: 60%
             height: 70vh
-            top: 10vh
+            top: -10vh
             padding: 0
             margin: 0 auto
             border-bottom: 1px solid #52affe
             @media (min-height: 812px) and (orientation: portrait)
-                top: 16vh
+                top: -16vh
             @media (min-width: 568px) and (orientation: landscape)
                 height: 50vh
                 width: 40%
-                top: 25vh
+                top: 5vh
                 margin: 0 20%
                 border-bottom: none
                 border-right: 1px solid #52affe
@@ -173,7 +197,7 @@ section
             flex-direction: column
             width: 40%
             bottom: 0
-            top: 20vh
+            top: 0vh
             right: 10%
             height: 60vh
         &--links
