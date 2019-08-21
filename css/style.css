@@ -18,6 +18,12 @@ h1 {
   }
 }
 
+@media (min-width: 568px) and (orientation: landscape) {
+  h1 {
+    font-size: 18px;
+  }
+}
+
 h2 {
   font-size: 18px;
   line-height: 25px;
@@ -92,12 +98,24 @@ section {
   background-repeat: no-repeat;
 }
 
+@media (min-width: 568px) and (orientation: landscape) {
+  .nav__logo {
+    margin-left: 20px;
+  }
+}
+
 .nav .hamburger {
   position: absolute;
   top: 50%;
   right: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+@media (min-width: 568px) and (orientation: landscape) {
+  .nav .hamburger {
+    right: 20px;
+  }
 }
 
 .hero {
@@ -117,12 +135,25 @@ section {
   overflow: hidden;
 }
 
+@media (min-width: 568px) and (orientation: landscape) {
+  .hero__img {
+    height: 350vh;
+  }
+}
+
 .hero__img--img {
   position: absolute;
   z-index: 2;
   width: 140%;
   top: -15vh;
   left: -5px;
+}
+
+@media (min-width: 568px) and (orientation: landscape) {
+  .hero__img--img {
+    width: 70%;
+    top: -35vh;
+  }
 }
 
 .header__description {
@@ -137,6 +168,20 @@ section {
 @media (min-height: 667px) and (orientation: portrait) {
   .header__description {
     bottom: -22vh;
+  }
+}
+
+@media (min-width: 568px) and (orientation: landscape) {
+  .header__description {
+    bottom: -10vh;
+    left: 65%;
+  }
+}
+
+@media (min-width: 667px) and (orientation: landscape) {
+  .header__description {
+    bottom: 0;
+    left: 70%;
   }
 }
 
@@ -158,6 +203,16 @@ section {
   text-align: center;
 }
 
+@media (min-width: 568px) and (orientation: landscape) {
+  .header__description--action {
+    width: 250px;
+    text-align: right;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
 .header__description--motto::after {
   content: '';
   display: block;
@@ -165,6 +220,12 @@ section {
   width: 150px;
   height: 2px;
   background-color: #fff;
+}
+
+@media (min-width: 568px) and (orientation: landscape) {
+  .header__description--motto::after {
+    margin-left: 100px;
+  }
 }
 
 .header__aside {
@@ -182,8 +243,8 @@ section {
   top: 20vh;
   height: 80vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(33%, #52affe), to(black));
-  background: linear-gradient(180deg, #52affe 33%, black 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(33%, #0095FF), to(black));
+  background: linear-gradient(180deg, #0095FF 33%, black 100%);
   opacity: 1;
   -webkit-transition: .3s;
   transition: .3s;
@@ -197,7 +258,7 @@ section {
   width: 100%;
   height: 80vh;
   z-index: 999;
-  background-color: #52affe;
+  background-color: #0095FF;
   -webkit-clip-path: ellipse(55% 10% at 50% 100%);
           clip-path: ellipse(55% 10% at 50% 100%);
 }
@@ -368,6 +429,13 @@ section {
   top: -30vh;
 }
 
+@media (min-width: 568px) and (orientation: landscape) {
+  .usage__gradient {
+    top: 0;
+    height: 80vh;
+  }
+}
+
 .usage__titel {
   position: absolute;
   margin-top: 20vh;
@@ -392,6 +460,12 @@ section {
   }
 }
 
+@media (min-width: 667px) and (orientation: landscape) {
+  .usage__titel {
+    width: 50%;
+  }
+}
+
 .usage__container {
   position: relative;
   top: 65vh;
@@ -403,6 +477,12 @@ section {
 @media (min-height: 736px) and (orientation: portrait) {
   .usage__container {
     top: 65vh;
+  }
+}
+
+@media (min-width: 667px) and (orientation: landscape) {
+  .usage__container {
+    width: 60%;
   }
 }
 
