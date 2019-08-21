@@ -1,7 +1,22 @@
 const hamburger = document.querySelector(".nav__hamburger")
 const aside = document.querySelector(".header__aside")
+const link__home = document.querySelector("#menu__link--home")
+const link__usage = document.querySelector("#menu__link--usage")
+const link__price = document.querySelector("#menu__link--price")
+const link__about = document.querySelector("#menu__link--about")
 
-
+$(link__home).on('click', function() {
+    $(aside).removeClass("header__aside--active")
+});
+$(link__usage).on('click', function() {
+    $(aside).removeClass("header__aside--active")
+});
+$(link__price).on('click', function() {
+    $(aside).removeClass("header__aside--active")
+});
+$(link__about).on('click', function() {
+    $(aside).removeClass("header__aside--active")
+});
 $(hamburger).on('click', function () {
     $(hamburger).toggleClass("is-active")
     $(aside).toggleClass("header__aside--active")
