@@ -7,15 +7,19 @@ const link__about = document.querySelector("#menu__link--about")
 
 $(link__home).on('click', function() {
     $(aside).removeClass("header__aside--active")
+    $(hamburger).removeClass("is-active")
 });
 $(link__usage).on('click', function() {
     $(aside).removeClass("header__aside--active")
+    $(hamburger).removeClass("is-active")
 });
 $(link__price).on('click', function() {
     $(aside).removeClass("header__aside--active")
+    $(hamburger).removeClass("is-active")
 });
 $(link__about).on('click', function() {
     $(aside).removeClass("header__aside--active")
+    $(hamburger).removeClass("is-active")
 });
 $(hamburger).on('click', function () {
     $(hamburger).toggleClass("is-active")
