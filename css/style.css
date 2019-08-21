@@ -168,11 +168,11 @@ section {
 }
 
 .header__aside {
-  display: none;
+  position: absolute;
   z-index: 998;
-  width: 100%;
+  width: 0;
   height: 100vh;
-  background-color: #000;
+  opacity: 0;
 }
 
 .header__aside--active {
@@ -182,8 +182,11 @@ section {
   top: 20vh;
   height: 80vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(33%, #207cca), to(black));
-  background: linear-gradient(180deg, #207cca 33%, black 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(33%, #52affe), to(black));
+  background: linear-gradient(180deg, #52affe 33%, black 100%);
+  opacity: 1;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .header__aside--active::before {
@@ -194,9 +197,9 @@ section {
   width: 100%;
   height: 80vh;
   z-index: 999;
-  background-color: #207cca;
-  -webkit-clip-path: ellipse(50% 10% at 50% 100%);
-          clip-path: ellipse(50% 10% at 50% 100%);
+  background-color: #52affe;
+  -webkit-clip-path: ellipse(55% 10% at 50% 100%);
+          clip-path: ellipse(55% 10% at 50% 100%);
 }
 
 .header__aside--active::after {
