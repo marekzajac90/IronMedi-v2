@@ -9,6 +9,8 @@ h1
     font-size: 20px
     @media (min-width: 375px)
         font-size: 22px
+    @media (min-width: 568px) and (orientation: landscape)
+        font-size: 18px
 h2  
     font-size: 18px
     line-height: 25px
@@ -61,11 +63,15 @@ section
         background-image: url(../img/IronMediLogo.png)
         background-size: contain
         background-repeat: no-repeat
+        @media (min-width: 568px) and (orientation: landscape)
+            margin-left: 20px
     .hamburger
         position: absolute
         top: 50%
         right: 10px
         transform: translateY(-50%)
+        @media (min-width: 568px) and (orientation: landscape)
+            right: 20px
 .hero
     height: 70vh
     &__img
@@ -78,12 +84,17 @@ section
         clip-path: ellipse(100% 20% at 50% 0%)
         z-index: 1
         overflow: hidden
+        @media (min-width: 568px) and (orientation: landscape)
+            height: 350vh
         &--img
             position: absolute
             z-index: 2
             width: 140%
             top: -15vh
             left: -5px
+            @media (min-width: 568px) and (orientation: landscape)
+                width: 70%
+                top: -35vh
 .header
     &__description
         position: absolute
@@ -93,6 +104,12 @@ section
         z-index: 1
         @media (min-height: 667px) and (orientation: portrait)
             bottom: -22vh
+        @media (min-width: 568px) and (orientation: landscape)
+            bottom: -10vh
+            left: 65%
+        @media (min-width: 667px) and (orientation: landscape)
+            bottom: 0
+            left: 70%
         &--action
             display: flex
             flex-direction: column
@@ -100,6 +117,10 @@ section
             align-items: center
             width: 280px
             text-align: center
+            @media (min-width: 568px) and (orientation: landscape)
+                width: 250px
+                text-align: right
+                align-items: flex-end
         &--motto
             &::after
                 content: ''
@@ -108,6 +129,8 @@ section
                 width: 150px
                 height: 2px
                 background-color: #fff
+                @media (min-width: 568px) and (orientation: landscape)
+                    margin-left: 100px
     &__aside
         position: absolute
         z-index: 998
@@ -121,7 +144,7 @@ section
             top: 20vh
             height: 80vh
             width: 100%
-            background: linear-gradient(180deg, #52affe 33%, rgb(0,0,0) 100%)
+            background: linear-gradient(180deg, #0095FF 33%, rgb(0,0,0) 100%)
             opacity: 1
             transition: .3s
             &::before
@@ -132,7 +155,7 @@ section
                 width: 100%
                 height: 80vh
                 z-index: 999
-                background-color: #52affe
+                background-color: #0095FF
                 clip-path: ellipse(55% 10% at 50% 100%)
             &::after
                 position: absolute
@@ -228,6 +251,9 @@ section
         width: 100%
         height: 60vh
         top: -30vh
+        @media (min-width: 568px) and (orientation: landscape)
+            top: 0
+            height: 80vh
     &__titel
         position: absolute
         margin-top: 20vh
@@ -241,6 +267,8 @@ section
             width: 80%
         @media (min-width: 812px) and (orientation: landscape)
             width: 70%
+        @media (min-width: 667px) and (orientation: landscape)
+            width: 50%
     &__container
         position: relative
         top: 65vh
@@ -249,6 +277,8 @@ section
         text-align: center
         @media (min-height: 736px) and (orientation: portrait)
             top: 65vh
+        @media (min-width: 667px) and (orientation: landscape)
+            width: 60%
         &--element
             display: flex
             flex-direction: column
