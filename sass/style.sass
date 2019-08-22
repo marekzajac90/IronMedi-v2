@@ -69,7 +69,7 @@ span.usage__container--button-description
     width: 100vw
     height: 50px
     background-color: rgba(0, 0, 0, .8)
-    z-index: 1000
+    z-index: 999
     @media (min-width: 1024px) and (orientation: portrait)
         height: 80px
     &__logo
@@ -89,7 +89,22 @@ span.usage__container--button-description
         @media (min-width: 1024px) and (orientation: portrait)
             height: 70px
             width: 250px
-
+    &__contact
+        position: absolute
+        display: none
+        @media (min-width: 1024px) and (orientation: landscape)
+            display: flex
+            flex-direction: row
+            justify-content: center
+            align-items: center
+            right: 80px
+            top: 50%
+            transform: translateY(-50%)
+            &--ico
+                display: flex
+                flex-direction: row
+                justify-content: center
+                align-items: center
     .hamburger
         position: absolute
         top: 50%
@@ -198,7 +213,15 @@ span.usage__container--button-description
             width: 100%
             background: linear-gradient(180deg, #0095FF 33%, rgb(0,0,0) 100%)
             opacity: 1
-            transition: .3s
+            transition: .2s
+            @media (min-width: 1024px) and (orientation: landscape)
+                top: 0
+                right: 70px
+                height: 50px
+                background: transparent
+                opacity: .5
+                width: 70%
+                z-index: 1000
             &::before
                 position: absolute
                 top: -80vh
@@ -209,6 +232,8 @@ span.usage__container--button-description
                 z-index: 999
                 background-color: #0095FF
                 clip-path: ellipse(55% 10% at 50% 100%)
+                @media (min-width: 1024px) and (orientation: landscape)
+                    display: none
             &::after
                 position: absolute
                 content: ''
@@ -218,6 +243,8 @@ span.usage__container--button-description
                 height: 100vh
                 background-color: #000000
                 z-index: 3
+                @media (min-width: 1024px) and (orientation: landscape)
+                    display: none
 
         &--menu
             position: relative
@@ -243,6 +270,12 @@ span.usage__container--button-description
                 margin: 0 20%
                 border-bottom: none
                 border-right: 1px solid #52affe
+            @media (min-width: 1024px) and (orientation: landscape)
+                border: 0
+                flex-direction: row
+                height: 50px
+                top: 0
+                width: 80%
         &--link
             text-align: center
             font-size: 26px
@@ -253,6 +286,10 @@ span.usage__container--button-description
                 line-height: 120px
             @media (min-width: 568px) and (orientation: landscape)
                 line-height: 50px
+            @media (min-width: 1024px) and (orientation: landscape)
+                font-size: 20px
+                line-height: 50px
+                padding: 0 15px
             &:hover
                 border-bottom: 2px solid #52affe
                 color: #52affe
@@ -268,6 +305,8 @@ span.usage__container--button-description
                 bottom: 18vh
             @media (min-width: 568px) and (orientation: landscape)
                 bottom: 5vh
+            @media (min-width: 1024px) and (orientation: landscape)
+                display: none
     &__socialMedia
         position: absolute
         display: flex
@@ -296,6 +335,20 @@ span.usage__container--button-description
             @media (min-width: 568px) and (orientation: landscape)
                 width: 40px
                 height: 40px
+            
+            @media (min-width: 1024px) and (orientation: landscape)
+                display: none
+            &-pc
+                display: none
+                @media (min-width: 1024px) and (orientation: landscape)
+                    display: block
+                    width: 25px
+                    height: 25px
+                    padding: 0 10px
+                    background-position: center center
+                    background-repeat: no-repeat
+                    background-size: contain
+
         &--fb
             background-image: url(../ico/Facebook.svg)
         &--in
