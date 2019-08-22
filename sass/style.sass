@@ -11,15 +11,25 @@ h1
         font-size: 22px
     @media (min-width: 568px) and (orientation: landscape)
         font-size: 18px
+    @media (min-width: 768px) and (orientation: portrait)
+        font-size: 26px
+        line-height: 30px
 h2  
     font-size: 18px
     line-height: 25px
     margin-top: 70px
+    @media (min-width: 768px) and (orientation: portrait)
+        font-size: 22px
+        line-height: 28px
 p
     font-size: 12px
     line-height: 18px
+    @media (min-width: 768px) and (orientation: portrait)
+        font-size: 16px
+        line-height: 22px
 span
     color: #52affe
+
 a
     text-decoration: none
     color: #fff
@@ -65,6 +75,8 @@ section
         background-repeat: no-repeat
         @media (min-width: 568px) and (orientation: landscape)
             margin-left: 20px
+        @media (min-width: 768px) and (orientation: portrait)
+            margin-left: 40px
     .hamburger
         position: absolute
         top: 50%
@@ -72,6 +84,8 @@ section
         transform: translateY(-50%)
         @media (min-width: 568px) and (orientation: landscape)
             right: 20px
+        @media (min-width: 768px) and (orientation: portrait)
+            right: 25px
 .hero
     height: 70vh
     &__img
@@ -93,8 +107,11 @@ section
             top: -15vh
             left: -5px
             @media (min-width: 568px) and (orientation: landscape)
-                width: 70%
+                width: 65%
                 top: -35vh
+            @media (min-width: 768px) and (orientation: portrait)
+                width: 110%
+                top: -20vh
 .header
     &__description
         position: absolute
@@ -104,12 +121,15 @@ section
         z-index: 1
         @media (min-height: 667px) and (orientation: portrait)
             bottom: -22vh
+        @media (min-width: 768px) and (orientation: portrait)
+            bottom: -20vh
         @media (min-width: 568px) and (orientation: landscape)
             bottom: -10vh
             left: 65%
         @media (min-width: 667px) and (orientation: landscape)
             bottom: 0
             left: 70%
+        
         &--action
             display: flex
             flex-direction: column
@@ -121,6 +141,8 @@ section
                 width: 250px
                 text-align: right
                 align-items: flex-end
+            @media (min-width: 768px) and (orientation: portrait)
+                width: 350px
         &--motto
             &::after
                 content: ''
@@ -181,6 +203,9 @@ section
             border-bottom: 1px solid #52affe
             @media (min-height: 812px) and (orientation: portrait)
                 top: -16vh
+            @media (min-width: 768px) and (orientation: portrait)
+                top: 0
+                height: 55vh
             @media (min-width: 568px) and (orientation: landscape)
                 height: 50vh
                 width: 40%
@@ -193,6 +218,9 @@ section
             font-size: 26px
             line-height: 70px
             border-bottom: 2px solid transpatent
+            @media (min-width: 768px) and (orientation: portrait)
+                font-size: 35px
+                line-height: 120px
             @media (min-width: 568px) and (orientation: landscape)
                 line-height: 50px
             &:hover
@@ -206,6 +234,8 @@ section
             margin-bottom: 10px
             @media (min-height: 812px) and (orientation: portrait)
                 bottom: 14vh
+            @media (min-width: 768px) and (orientation: portrait)
+                bottom: 18vh
             @media (min-width: 568px) and (orientation: landscape)
                 bottom: 5vh
     &__socialMedia
@@ -225,10 +255,14 @@ section
             right: 10%
             height: 60vh
         &--links
-            width: 60px
-            height: 60px
+            width: 40px
+            height: 40px
             background-position: center center
             background-repeat: no-repeat
+            background-size: contain
+            @media (min-width: 768px) and (orientation: portrait)
+                width: 60px
+                height: 60px
             @media (min-width: 568px) and (orientation: landscape)
                 width: 40px
                 height: 40px
@@ -269,6 +303,9 @@ section
             width: 70%
         @media (min-width: 667px) and (orientation: landscape)
             width: 50%
+        @media (min-width: 768px) and (orientation: portrait)
+            width: 70%
+
     &__container
         position: relative
         top: 65vh
@@ -277,6 +314,8 @@ section
         text-align: center
         @media (min-height: 736px) and (orientation: portrait)
             top: 65vh
+        @media (min-width: 768px) and (orientation: portrait)
+            width: 65%
         @media (min-width: 667px) and (orientation: landscape)
             width: 60%
         &--element
@@ -337,6 +376,9 @@ section
         width: 100%
         clip-path: ellipse(55% 10% at 50% 100%)
         background-color: #52affe
+        @media (min-width: 768px) and (orientation: portrait)
+            height: 61vh
+            z-index: -1
     &__heading
     &__elements
         display: flex
@@ -357,6 +399,9 @@ section
                 width: 160px
                 height: 170px
                 margin-bottom: 40px
+            @media (min-width: 768px) and (orientation: portrait)
+                width: 200px
+                height: 210px
         &--text
             position: absolute  
         &--package
@@ -366,11 +411,15 @@ section
             left: 50%
             transform: translate(-50%, -50%)
             border-bottom: 2px solid #fff
+            @media (min-width: 768px) and (orientation: portrait)
+                font-size: 18px
         &--price
             font-size: 40px
             top: 40%
             left: 50%
             transform: translate(-50%, -50%)
+            @media (min-width: 768px) and (orientation: portrait)
+                font-size: 50px
 
 
 
@@ -393,5 +442,8 @@ section
         padding-bottom: 50px
         @media (min-height: 812px) and (orientation: portrait)
             margin-bottom: 0
+        @media (min-width: 768px) and (orientation: portrait)
+            width: 70%
         @media (min-width: 568px) and (orientation: landscape)
             width: 60%
+        
