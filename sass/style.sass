@@ -20,7 +20,7 @@ h2
     margin-top: 70px
     @media (min-width: 768px) and (orientation: portrait)
         font-size: 22px
-        line-height: 28px
+        line-height: 28px 
 p
     font-size: 12px
     line-height: 18px
@@ -45,6 +45,10 @@ section
     width: 80px
     padding: 7px 20px
     color: #fff
+    @media (min-width: 1024px) and (orientation: portrait)
+        width: 150px
+        font-size: 25px
+        padding: 12px 25px
     &:hover
         background-color: #52affe 
 .description__article-active
@@ -54,6 +58,9 @@ section
 .box
     position: relative
     top: 70vh
+span.usage__container--button-description
+    @media (min-width: 1024px) and (orientation: portrait)
+        font-size: 18px
 
 // section Header + Nav
 
@@ -109,6 +116,8 @@ section
         overflow: hidden
         @media (min-width: 568px) and (orientation: landscape)
             height: 350vh
+        @media (min-width: 1024px) and (orientation: portrait)
+            height: 310vh
         &--img
             position: absolute
             z-index: 2
@@ -123,6 +132,10 @@ section
                 top: -20vh
             @media (min-width: 800px) and (orientation: portrait)
                 top: -10vh
+            @media (min-width: 1024px) and (orientation: portrait)
+                top: -15vh
+            
+                
 .header
     &__description
         position: absolute
@@ -136,6 +149,8 @@ section
             bottom: -20vh
         @media (min-width: 800px) and (orientation: portrait)
             bottom: -15vh
+        @media (min-width: 1024px) and (orientation: portrait)
+            bottom: -22vh
         @media (min-width: 568px) and (orientation: landscape)
             bottom: -10vh
             left: 65%
@@ -156,6 +171,8 @@ section
                 align-items: flex-end
             @media (min-width: 768px) and (orientation: portrait)
                 width: 350px
+            @media (min-width: 1024px) and (orientation: portrait)
+                width: 380px
         &--motto
             &::after
                 content: ''
@@ -301,6 +318,7 @@ section
         @media (min-width: 568px) and (orientation: landscape)
             top: 0
             height: 80vh
+        
     &__titel
         position: absolute
         margin-top: 20vh
@@ -318,6 +336,9 @@ section
             width: 50%
         @media (min-width: 768px) and (orientation: portrait)
             width: 70%
+        @media (min-width: 1024px) and (orientation: portrait)
+            width: 50%
+        
 
     &__container
         position: relative
@@ -329,6 +350,8 @@ section
             top: 65vh
         @media (min-width: 768px) and (orientation: portrait)
             width: 65%
+        @media (min-width: 1024px) and (orientation: portrait)
+            width: 60%
         @media (min-width: 667px) and (orientation: landscape)
             width: 60%
         &--element
@@ -444,6 +467,8 @@ section
     width: 70%
     margin: 0 auto
     text-align: center
+    @media (min-width: 1024px) and (orientation: portrait)
+        width: 60%
     &__heading
         padding-top: 80px
     &__text
