@@ -83,6 +83,14 @@ section {
   color: #fff;
 }
 
+@media (min-width: 1024px) and (orientation: portrait) {
+  .buyNowBtn {
+    width: 150px;
+    font-size: 25px;
+    padding: 12px 25px;
+  }
+}
+
 .buyNowBtn:hover {
   background-color: #52affe;
 }
@@ -96,6 +104,12 @@ section {
 .box {
   position: relative;
   top: 70vh;
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  span.usage__container--button-description {
+    font-size: 18px;
+  }
 }
 
 .nav {
@@ -193,6 +207,12 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: portrait) {
+  .hero__img {
+    height: 310vh;
+  }
+}
+
 .hero__img--img {
   position: absolute;
   z-index: 2;
@@ -221,6 +241,12 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: portrait) {
+  .hero__img--img {
+    top: -15vh;
+  }
+}
+
 .header__description {
   position: absolute;
   bottom: -27vh;
@@ -245,6 +271,12 @@ section {
 @media (min-width: 800px) and (orientation: portrait) {
   .header__description {
     bottom: -15vh;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  .header__description {
+    bottom: -22vh;
   }
 }
 
@@ -293,6 +325,12 @@ section {
 @media (min-width: 768px) and (orientation: portrait) {
   .header__description--action {
     width: 350px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  .header__description--action {
+    width: 380px;
   }
 }
 
@@ -583,6 +621,12 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: portrait) {
+  .usage__titel {
+    width: 50%;
+  }
+}
+
 .usage__container {
   position: relative;
   top: 65vh;
@@ -600,6 +644,12 @@ section {
 @media (min-width: 768px) and (orientation: portrait) {
   .usage__container {
     width: 65%;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  .usage__container {
+    width: 60%;
   }
 }
 
@@ -800,6 +850,12 @@ section {
   width: 70%;
   margin: 0 auto;
   text-align: center;
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  .about {
+    width: 60%;
+  }
 }
 
 .about__heading {
