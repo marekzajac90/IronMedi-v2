@@ -106,6 +106,12 @@ section {
   z-index: 1000;
 }
 
+@media (min-width: 1024px) and (orientation: portrait) {
+  .nav {
+    height: 80px;
+  }
+}
+
 .nav__logo {
   position: absolute;
   margin-left: 10px;
@@ -131,6 +137,13 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: portrait) {
+  .nav__logo {
+    height: 70px;
+    width: 250px;
+  }
+}
+
 .nav .hamburger {
   position: absolute;
   top: 50%;
@@ -148,6 +161,12 @@ section {
 @media (min-width: 768px) and (orientation: portrait) {
   .nav .hamburger {
     right: 25px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  .nav .hamburger {
+    right: 30px;
   }
 }
 
