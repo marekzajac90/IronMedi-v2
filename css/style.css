@@ -196,6 +196,12 @@ section {
   }
 }
 
+@media (min-width: 800px) and (orientation: portrait) {
+  .hero__img--img {
+    top: -10vh;
+  }
+}
+
 .header__description {
   position: absolute;
   bottom: -27vh;
@@ -214,6 +220,12 @@ section {
 @media (min-width: 768px) and (orientation: portrait) {
   .header__description {
     bottom: -20vh;
+  }
+}
+
+@media (min-width: 800px) and (orientation: portrait) {
+  .header__description {
+    bottom: -15vh;
   }
 }
 
