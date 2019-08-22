@@ -63,6 +63,8 @@ section
     height: 50px
     background-color: rgba(0, 0, 0, .8)
     z-index: 1000
+    @media (min-width: 1024px) and (orientation: portrait)
+        height: 80px
     &__logo
         position: absolute
         margin-left: 10px
@@ -77,6 +79,10 @@ section
             margin-left: 20px
         @media (min-width: 768px) and (orientation: portrait)
             margin-left: 40px
+        @media (min-width: 1024px) and (orientation: portrait)
+            height: 70px
+            width: 250px
+
     .hamburger
         position: absolute
         top: 50%
@@ -86,6 +92,9 @@ section
             right: 20px
         @media (min-width: 768px) and (orientation: portrait)
             right: 25px
+        @media (min-width: 1024px) and (orientation: portrait)
+            right: 30px
+
 .hero
     height: 70vh
     &__img
