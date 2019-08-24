@@ -31,6 +31,13 @@ h1 {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+  h1 {
+    font-size: 25px;
+    line-height: 34px;
+  }
+}
+
 h2 {
   font-size: 18px;
   line-height: 25px;
@@ -255,6 +262,12 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+  .hero__img {
+    height: 370vh;
+  }
+}
+
 .hero__img--img {
   position: absolute;
   z-index: 2;
@@ -389,6 +402,12 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+  .header__description--action {
+    width: 330px;
+  }
+}
+
 .header__description--motto::after {
   content: '';
   display: block;
@@ -401,6 +420,12 @@ section {
 @media (min-width: 568px) and (orientation: landscape) {
   .header__description--motto::after {
     margin-left: 100px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .header__description--motto::after {
+    margin-left: 200px;
   }
 }
 
@@ -718,7 +743,7 @@ section {
     border-radius: 45%;
     border: 2px solid #fff;
     z-index: 998;
-    top: 13vh;
+    top: 18vh;
     left: 50%;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
