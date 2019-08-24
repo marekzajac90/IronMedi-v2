@@ -151,7 +151,7 @@ span.usage__container--button-description
             @media (min-width: 1024px) and (orientation: portrait)
                 top: -15vh
             @media (min-width: 1024px) and (orientation: landscape)
-                top: -12vh
+                top: -15vh
             
                 
 .header
@@ -374,7 +374,9 @@ span.usage__container--button-description
 .usage
     min-height: 100vh
     &__grafic
+        display: none
         @media (min-width: 1024px) and (orientation: landscape)
+            display: block
             position: absolute
             width: 20px
             height: 35px
@@ -384,18 +386,18 @@ span.usage__container--button-description
             top: 13vh
             left: 50%
             transform: translate(-50%)
-        &::after
-            content: ''
-            display: block
-            color: #ffffff
-            position: absolute
-            width: 0
-            height: 10px
-            border: 1px solid #fff
-            top: 8px
-            left: 50%
-            transform: translateX(-50%)
-            z-index: 999
+            &::after
+                content: ''
+                display: block
+                color: #ffffff
+                position: absolute
+                width: 0
+                height: 10px
+                border: 1px solid #fff
+                top: 8px
+                left: 50%
+                transform: translateX(-50%)
+                z-index: 999
     &__gradient
         position: absolute
         background: linear-gradient(180deg, rgba(82,175,254,1) 33%, rgba(0,0,0,1) 100%)
