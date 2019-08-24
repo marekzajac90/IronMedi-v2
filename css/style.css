@@ -291,7 +291,7 @@ section {
 
 @media (min-width: 1024px) and (orientation: landscape) {
   .hero__img--img {
-    top: -15vh;
+    top: -18vh;
   }
 }
 
@@ -1069,6 +1069,12 @@ section {
 @media (min-width: 568px) and (orientation: landscape) {
   .about__chemi {
     width: 60%;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .about__chemi {
+    width: 40%;
   }
 }
 /*# sourceMappingURL=style.css.map */
