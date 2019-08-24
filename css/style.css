@@ -116,7 +116,7 @@ section {
   position: fixed;
   width: 100vw;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: black;
   z-index: 999;
 }
 
@@ -289,6 +289,12 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+  .hero__img--img {
+    top: -12vh;
+  }
+}
+
 .header__description {
   position: absolute;
   bottom: -27vh;
@@ -333,6 +339,13 @@ section {
   .header__description {
     bottom: 0;
     left: 70%;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .header__description {
+    bottom: 20vh;
+    left: 75%;
   }
 }
 
@@ -395,7 +408,7 @@ section {
   position: absolute;
   z-index: 998;
   width: 0;
-  height: 100vh;
+  height: 0;
   opacity: 0;
 }
 
@@ -418,9 +431,8 @@ section {
     top: 0;
     right: 70px;
     height: 50px;
-    background: transparent;
-    opacity: .5;
-    width: 70%;
+    background: #000;
+    width: 550px;
     z-index: 1000;
   }
 }
@@ -515,9 +527,12 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 50px;
     top: 0;
-    width: 80%;
+    margin: 0;
+    width: 550px;
   }
 }
 
@@ -543,9 +558,9 @@ section {
 
 @media (min-width: 1024px) and (orientation: landscape) {
   .header__aside--link {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 50px;
-    padding: 0 15px;
+    height: 50px;
   }
 }
 
@@ -620,6 +635,12 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+  .header__socialMedia {
+    display: none;
+  }
+}
+
 .header__socialMedia--links {
   width: 40px;
   height: 40px;
@@ -684,6 +705,34 @@ section {
   min-height: 100vh;
 }
 
+.usage__grafic {
+  position: absolute;
+  width: 20px;
+  height: 35px;
+  border-radius: 45%;
+  border: 2px solid #fff;
+  z-index: 998;
+  top: 13vh;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.usage__grafic::after {
+  content: '';
+  display: block;
+  color: #ffffff;
+  position: absolute;
+  width: 0;
+  height: 10px;
+  border: 1px solid #fff;
+  top: 8px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 999;
+}
+
 .usage__gradient {
   position: absolute;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(33%, #52affe), to(black));
@@ -697,6 +746,13 @@ section {
   .usage__gradient {
     top: 0;
     height: 80vh;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .usage__gradient {
+    top: -5vh;
+    height: 70vh;
   }
 }
 
