@@ -14,6 +14,9 @@ h1
     @media (min-width: 768px) and (orientation: portrait)
         font-size: 26px
         line-height: 30px
+    @media (min-width: 1024px) and (orientation: landscape)
+        font-size: 25px
+        line-height: 34px
 h2  
     font-size: 18px
     line-height: 25px
@@ -134,6 +137,8 @@ span.usage__container--button-description
             height: 350vh
         @media (min-width: 1024px) and (orientation: portrait)
             height: 310vh
+        @media (min-width: 1024px) and (orientation: landscape)
+            height: 370vh
         &--img
             position: absolute
             z-index: 2
@@ -194,6 +199,8 @@ span.usage__container--button-description
                 width: 350px
             @media (min-width: 1024px) and (orientation: portrait)
                 width: 380px
+            @media (min-width: 1024px) and (orientation: landscape)
+                width: 330px
         &--motto
             &::after
                 content: ''
@@ -204,6 +211,8 @@ span.usage__container--button-description
                 background-color: #fff
                 @media (min-width: 568px) and (orientation: landscape)
                     margin-left: 100px
+                @media (min-width: 1024px) and (orientation: landscape)
+                    margin-left: 200px
     &__aside
         position: absolute
         z-index: 998
@@ -383,7 +392,7 @@ span.usage__container--button-description
             border-radius: 45%
             border: 2px solid #fff
             z-index: 998
-            top: 13vh
+            top: 18vh
             left: 50%
             transform: translate(-50%)
             &::after
