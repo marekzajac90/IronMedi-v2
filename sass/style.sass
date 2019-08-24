@@ -374,15 +374,16 @@ span.usage__container--button-description
 .usage
     min-height: 100vh
     &__grafic
-        position: absolute
-        width: 20px
-        height: 35px
-        border-radius: 45%
-        border: 2px solid #fff
-        z-index: 998
-        top: 13vh
-        left: 50%
-        transform: translate(-50%)
+        @media (min-width: 1024px) and (orientation: landscape)
+            position: absolute
+            width: 20px
+            height: 35px
+            border-radius: 45%
+            border: 2px solid #fff
+            z-index: 998
+            top: 13vh
+            left: 50%
+            transform: translate(-50%)
         &::after
             content: ''
             display: block
