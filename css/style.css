@@ -291,7 +291,7 @@ section {
 
 @media (min-width: 1024px) and (orientation: landscape) {
   .hero__img--img {
-    top: -12vh;
+    top: -15vh;
   }
 }
 
@@ -705,8 +705,13 @@ section {
   min-height: 100vh;
 }
 
+.usage__grafic {
+  display: none;
+}
+
 @media (min-width: 1024px) and (orientation: landscape) {
   .usage__grafic {
+    display: block;
     position: absolute;
     width: 20px;
     height: 35px;
@@ -718,21 +723,20 @@ section {
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
   }
-}
-
-.usage__grafic::after {
-  content: '';
-  display: block;
-  color: #ffffff;
-  position: absolute;
-  width: 0;
-  height: 10px;
-  border: 1px solid #fff;
-  top: 8px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  z-index: 999;
+  .usage__grafic::after {
+    content: '';
+    display: block;
+    color: #ffffff;
+    position: absolute;
+    width: 0;
+    height: 10px;
+    border: 1px solid #fff;
+    top: 8px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    z-index: 999;
+  }
 }
 
 .usage__gradient {
