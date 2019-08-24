@@ -705,17 +705,19 @@ section {
   min-height: 100vh;
 }
 
-.usage__grafic {
-  position: absolute;
-  width: 20px;
-  height: 35px;
-  border-radius: 45%;
-  border: 2px solid #fff;
-  z-index: 998;
-  top: 13vh;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+@media (min-width: 1024px) and (orientation: landscape) {
+  .usage__grafic {
+    position: absolute;
+    width: 20px;
+    height: 35px;
+    border-radius: 45%;
+    border: 2px solid #fff;
+    z-index: 998;
+    top: 13vh;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+  }
 }
 
 .usage__grafic::after {
