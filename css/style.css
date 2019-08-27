@@ -1316,6 +1316,12 @@ section {
   }
 }
 
+@media (min-width: 1280px) and (orientation: landscape) {
+  .about {
+    width: 40%;
+  }
+}
+
 .about__heading {
   padding-top: 80px;
 }
