@@ -38,6 +38,12 @@ h1 {
   }
 }
 
+@media (min-width: 1280px) and (orientation: landscape) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
 h2 {
   font-size: 18px;
   line-height: 25px;
@@ -51,6 +57,13 @@ h2 {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+  h2 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
+
 p {
   font-size: 12px;
   line-height: 18px;
@@ -60,6 +73,19 @@ p {
   p {
     font-size: 16px;
     line-height: 22px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 1440px) and (orientation: landscape) {
+  p {
+    font-size: 16px;
   }
 }
 
@@ -116,6 +142,12 @@ section {
 @media (min-width: 1024px) and (orientation: portrait) {
   span.usage__container--button-description {
     font-size: 18px;
+  }
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+  span.usage__container--button-description {
+    font-size: 14px;
   }
 }
 
@@ -308,6 +340,43 @@ section {
   }
 }
 
+@media (min-width: 1280px) and (orientation: landscape) {
+  .hero__img--img {
+    top: -10vh;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1470px) and (orientation: landscape) {
+  .hero__img--img {
+    top: -15vh;
+  }
+}
+
+@media (min-width: 1470px) and (orientation: landscape) {
+  .hero__img--img {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1670px) and (orientation: landscape) {
+  .hero__img--img {
+    top: -20vh;
+  }
+}
+
+@media (min-width: 1750px) and (orientation: landscape) {
+  .hero__img--img {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1920px) and (orientation: landscape) {
+  .hero__img--img {
+    width: 55%;
+  }
+}
+
 .header__description {
   position: absolute;
   bottom: -27vh;
@@ -362,6 +431,36 @@ section {
   }
 }
 
+@media (min-width: 1280px) and (orientation: landscape) {
+  .header__description {
+    left: 70%;
+  }
+}
+
+@media (min-width: 1470px) and (orientation: landscape) {
+  .header__description {
+    left: 75%;
+  }
+}
+
+@media (min-width: 1670px) and (orientation: landscape) {
+  .header__description {
+    left: 80%;
+  }
+}
+
+@media (min-width: 1750px) and (orientation: landscape) {
+  .header__description {
+    left: 80%;
+  }
+}
+
+@media (min-width: 1920px) and (orientation: landscape) {
+  .header__description {
+    left: 80%;
+  }
+}
+
 .header__description--action {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -408,6 +507,12 @@ section {
   }
 }
 
+@media (min-width: 1280px) and (orientation: landscape) {
+  .header__description--action {
+    width: 370px;
+  }
+}
+
 .header__description--motto::after {
   content: '';
   display: block;
@@ -426,6 +531,12 @@ section {
 @media (min-width: 1024px) and (orientation: landscape) {
   .header__description--motto::after {
     margin-left: 200px;
+  }
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+  .header__description--motto::after {
+    margin-left: 220px;
   }
 }
 
@@ -586,6 +697,12 @@ section {
     font-size: 16px;
     line-height: 50px;
     height: 50px;
+  }
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+  .header__aside--link {
+    font-size: 18px;
   }
 }
 
@@ -787,6 +904,12 @@ section {
   }
 }
 
+@media (min-width: 1280px) and (orientation: landscape) {
+  .usage__gradient {
+    height: 60vh;
+  }
+}
+
 .usage__titel {
   position: absolute;
   margin-top: 20vh;
@@ -826,6 +949,12 @@ section {
 @media (min-width: 1024px) and (orientation: portrait) {
   .usage__titel {
     width: 50%;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .usage__titel {
+    width: 40%;
   }
 }
 
@@ -969,10 +1098,16 @@ section {
 }
 
 .price {
-  top: 80vh;
+  top: 75vh;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #52affe), to(black));
   background: linear-gradient(180deg, #52affe 25%, black 100%);
   text-align: center;
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+  .price {
+    height: 75vh;
+  }
 }
 
 .price::before {
@@ -990,7 +1125,13 @@ section {
 @media (min-width: 768px) and (orientation: portrait) {
   .price::before {
     height: 61vh;
-    z-index: -1;
+    z-index: -2;
+  }
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+  .price::before {
+    top: -59.8vh;
   }
 }
 
@@ -1043,6 +1184,13 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+  .price__elements--element {
+    width: 200px;
+    height: 210px;
+  }
+}
+
 .price__elements--text {
   position: absolute;
 }
@@ -1063,6 +1211,12 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+  .price__elements--package {
+    font-size: 16px;
+  }
+}
+
 .price__elements--price {
   font-size: 40px;
   top: 40%;
@@ -1074,6 +1228,12 @@ section {
 @media (min-width: 768px) and (orientation: portrait) {
   .price__elements--price {
     font-size: 50px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .price__elements--price {
+    font-size: 45px;
   }
 }
 
@@ -1135,7 +1295,8 @@ section {
 
 @media (min-width: 1024px) and (orientation: landscape) {
   .about__chemi {
-    width: 40%;
+    width: 50%;
+    margin-top: 5vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
