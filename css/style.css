@@ -205,7 +205,7 @@ section {
 
 @media (min-width: 1280px) and (orientation: landscape) {
   .nav__logo {
-    height: 80px;
+    height: 60px;
     width: 220px;
   }
 }
