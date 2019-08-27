@@ -165,6 +165,12 @@ section {
   }
 }
 
+@media (min-width: 1280px) and (orientation: landscape) {
+  .nav {
+    height: 80px;
+  }
+}
+
 .nav__logo {
   position: absolute;
   margin-left: 10px;
@@ -194,6 +200,13 @@ section {
   .nav__logo {
     height: 70px;
     width: 250px;
+  }
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+  .nav__logo {
+    height: 80px;
+    width: 220px;
   }
 }
 
@@ -342,7 +355,7 @@ section {
 
 @media (min-width: 1280px) and (orientation: landscape) {
   .hero__img--img {
-    top: -10vh;
+    top: -25vh;
     width: 70%;
   }
 }
@@ -414,6 +427,13 @@ section {
   .header__description {
     bottom: -10vh;
     left: 65%;
+  }
+}
+
+@media (min-width: 640px) and (orientation: landscape) {
+  .header__description {
+    bottom: 0;
+    left: 70%;
   }
 }
 
@@ -573,6 +593,13 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) and (min-width: 1280px) and (orientation: landscape) {
+  .header__aside--active {
+    height: 80px;
+    right: 50px;
+  }
+}
+
 .header__aside--active::before {
   position: absolute;
   top: -80vh;
@@ -669,6 +696,12 @@ section {
     top: 0;
     margin: 0;
     width: 550px;
+  }
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+  .header__aside--menu {
+    height: 80px;
   }
 }
 
@@ -824,6 +857,13 @@ section {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
+  }
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+  .header__socialMedia--links-pc {
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -991,6 +1031,12 @@ section {
   }
 }
 
+@media (min-width: 568px) and (orientation: landscape) {
+  .usage__container {
+    top: 80vh;
+  }
+}
+
 @media (min-width: 667px) and (orientation: landscape) {
   .usage__container {
     width: 60%;
@@ -1107,6 +1153,7 @@ section {
 @media (min-width: 1280px) and (orientation: landscape) {
   .price {
     height: 75vh;
+    top: 80vh;
   }
 }
 
@@ -1158,6 +1205,12 @@ section {
   }
 }
 
+@media (min-width: 1280px) and (orientation: landscape) {
+  .price__elements {
+    margin-top: 5%;
+  }
+}
+
 .price__elements--element {
   position: relative;
   width: 140px;
@@ -1188,6 +1241,13 @@ section {
   .price__elements--element {
     width: 200px;
     height: 210px;
+  }
+}
+
+@media (min-width: 1920px) and (orientation: landscape) {
+  .price__elements--element {
+    width: 250px;
+    height: 260px;
   }
 }
 
