@@ -89,6 +89,8 @@ span.usage__container--button-description
     z-index: 999
     @media (min-width: 1024px) and (orientation: portrait)
         height: 80px
+    @media (min-width: 1280px) and (orientation: landscape)
+        height: 80px
     &__logo
         position: absolute
         margin-left: 10px
@@ -106,6 +108,9 @@ span.usage__container--button-description
         @media (min-width: 1024px) and (orientation: portrait)
             height: 70px
             width: 250px
+        @media (min-width: 1280px) and (orientation: landscape)
+            height: 80px
+            width: 220px
     &__contact
         position: absolute
         display: none
@@ -171,7 +176,7 @@ span.usage__container--button-description
             @media (min-width: 1024px) and (orientation: landscape)
                 top: -18vh
             @media (min-width: 1280px) and (orientation: landscape)
-                top: -10vh
+                top: -25vh
                 width: 70%
             @media (min-width: 1470px) and (orientation: landscape)
                 top: -15vh
@@ -203,6 +208,9 @@ span.usage__container--button-description
         @media (min-width: 568px) and (orientation: landscape)
             bottom: -10vh
             left: 65%
+        @media (min-width: 640px) and (orientation: landscape)
+            bottom: 0
+            left: 70%
         @media (min-width: 667px) and (orientation: landscape)
             bottom: 0
             left: 70%
@@ -278,6 +286,9 @@ span.usage__container--button-description
                 // opacity: .5
                 width: 550px
                 z-index: 1000
+                @media (min-width: 1280px) and (orientation: landscape)
+                    height: 80px
+                    right: 50px 
             &::before
                 position: absolute
                 top: -80vh
@@ -334,6 +345,9 @@ span.usage__container--button-description
                 top: 0
                 margin: 0
                 width: 550px
+            @media (min-width: 1280px) and (orientation: landscape)
+                height: 80px
+
         &--link
             text-align: center
             font-size: 26px
@@ -411,6 +425,9 @@ span.usage__container--button-description
                     background-position: center center
                     background-repeat: no-repeat
                     background-size: contain
+                @media (min-width: 1280px) and (orientation: landscape)
+                    width: 30px
+                    height: 30px
 
         &--fb
             background-image: url(../ico/Facebook.svg)
@@ -502,6 +519,8 @@ span.usage__container--button-description
             width: 65%
         @media (min-width: 1024px) and (orientation: portrait)
             width: 60%
+        @media (min-width: 568px) and (orientation: landscape)
+            top: 80vh
         @media (min-width: 667px) and (orientation: landscape)
             width: 60%
         @media (min-width: 1024px) and (orientation: landscape)
@@ -565,6 +584,7 @@ span.usage__container--button-description
     text-align: center
     @media (min-width: 1280px) and (orientation: landscape)
         height: 75vh
+        top: 80vh
     &::before
         position: absolute
         content: ''
@@ -588,6 +608,8 @@ span.usage__container--button-description
         margin-top: 60px
         @media (min-height: 812px) and (orientation: portrait)
             margin-top: 80px
+        @media (min-width: 1280px) and (orientation: landscape)
+            margin-top: 5%    
         &--element
             position: relative
             width: 140px
@@ -605,6 +627,9 @@ span.usage__container--button-description
             @media (min-width: 1024px) and (orientation: landscape)
                 width: 200px
                 height: 210px
+            @media (min-width: 1920px) and (orientation: landscape)
+                width: 250px
+                height: 260px
         &--text
             position: absolute  
         &--package
