@@ -379,9 +379,10 @@ section {
   }
 }
 
-@media (min-width: 1280px) and (min-height: 800px) and (orientation: landscape) {
+@media (min-width: 1280px) and (height: 800px) and (orientation: landscape) {
   .hero__img--img {
     width: 700px;
+    top: 0;
   }
 }
 
