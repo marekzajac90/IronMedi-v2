@@ -362,6 +362,7 @@ section {
 
 @media (min-width: 800px) and (orientation: portrait) {
   .hero__img--img {
+    width: 750px;
     top: 8vh;
   }
 }
