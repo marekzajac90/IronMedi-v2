@@ -401,7 +401,7 @@ section {
 
 @media (min-width: 1280px) and (orientation: landscape) {
   .hero__img--img {
-    width: 800px;
+    width: 750px;
     top: 10vh;
   }
 }
