@@ -315,108 +315,69 @@ section {
 
 .hero__img--img {
   position: absolute;
-  z-index: 2;
-  width: 320px;
-  top: 5vh;
-  left: -5px;
+  top: 0;
+  width: 100%;
+  max-width: 900px;
 }
 
-@media (min-width: 360px) and (height: 740px) and (orientation: portrait) {
+@media (min-height: 740px) and (orientation: portrait) {
   .hero__img--img {
-    width: 360px;
-    top: 10vh;
+    top: 70px;
   }
 }
 
-@media (min-width: 375px) and (orientation: portrait) {
+@media (min-width: 320px) and (orientation: landscape) {
   .hero__img--img {
-    width: 360px;
+    width: 50%;
   }
 }
 
-@media (min-width: 375px) and (min-height: 800px) {
+@media (width: 740px) and (height: 360px) {
   .hero__img--img {
-    top: 13vh;
+    width: 40%;
   }
 }
 
-@media (min-width: 400px) and (orientation: portrait) {
+@media (width: 812px) and (height: 375px) {
   .hero__img--img {
-    width: 400px;
+    width: 40%;
   }
 }
 
-@media (min-width: 600px) and (orientation: portrait) {
+@media (min-width: 768px) and (orientation: portrait) {
   .hero__img--img {
-    width: 550px;
-    top: 8vh;
-  }
-}
-
-@media (min-width: 768px) and (height: 1024px) and (orientation: portrait) {
-  .hero__img--img {
-    width: 700px;
     top: 0;
-  }
-}
-
-@media (min-width: 800px) and (orientation: portrait) {
-  .hero__img--img {
-    width: 750px;
-    top: 8vh;
   }
 }
 
 @media (min-width: 1024px) and (orientation: portrait) {
   .hero__img--img {
-    width: 800px;
-  }
-}
-
-@media (min-width: 568px) and (orientation: landscape) {
-  .hero__img--img {
-    width: 310px;
-    top: 0;
-  }
-}
-
-@media (min-width: 960px) and (orientation: landscape) {
-  .hero__img--img {
-    width: 450px;
+    top: 90px;
   }
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {
   .hero__img--img {
-    width: 800px;
-    top: 5vh;
+    top: 70px;
+    width: 50%;
   }
 }
 
-@media (min-width: 1024px) and (height: 768px) and (orientation: landscape) {
+@media (min-width: 960px) and (orientation: portrait) {
   .hero__img--img {
-    width: 700px;
+    width: 80%;
   }
 }
 
 @media (min-width: 1280px) and (orientation: landscape) {
   .hero__img--img {
-    width: 800px;
-    top: 10vh;
+    top: 90px;
   }
 }
 
-@media (min-width: 1280px) and (max-height: 800px) and (orientation: landscape) {
+@media (min-width: 1600px) and (orientation: landscape) {
   .hero__img--img {
-    width: 700px;
-    top: 0;
-  }
-}
-
-@media (min-width: 1750px) and (orientation: landscape) {
-  .hero__img--img {
-    width: 900px;
-    top: 5vh;
+    top: 30px;
   }
 }
 
