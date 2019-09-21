@@ -573,7 +573,7 @@ section {
 @media (min-width: 1024px) and (orientation: landscape) and (min-width: 1280px) and (orientation: landscape) {
   .header__aside--active {
     height: 80px;
-    right: 50px;
+    right: 80px;
   }
 }
 
@@ -679,6 +679,7 @@ section {
 @media (min-width: 1280px) and (orientation: landscape) {
   .header__aside--menu {
     height: 80px;
+    margin-right: 80px;
   }
 }
 
