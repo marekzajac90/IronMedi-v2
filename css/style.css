@@ -570,16 +570,10 @@ section {
   }
 }
 
-@media (min-width: 1024px) and (orientation: landscape) and (min-width: 1280px) and (orientation: landscape) {
+@media (min-width: 1280px) and (orientation: landscape) {
   .header__aside--active {
     height: 80px;
     right: 80px;
-  }
-}
-
-@media (min-width: 1024px) and (orientation: landscape) and (min-width: 1400px) and (orientation: landscape) {
-  .header__aside--active {
-    right: 50px;
   }
 }
 
