@@ -577,6 +577,12 @@ section {
   }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) and (min-width: 1400px) and (orientation: landscape) {
+  .header__aside--active {
+    right: 50px;
+  }
+}
+
 .header__aside--active::before {
   position: absolute;
   top: -80vh;
